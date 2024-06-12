@@ -1,9 +1,9 @@
 {
   "server": {
     "basePath": "/backend"
+    window.__CONFIG__ = {
+    // ... Config variables go here ...
+      "VITE_CORS_PROXY_UR": "https://whoami-strm-proxy.netlify.app"
+    };
   }
 }
-window.__CONFIG__ = {
-// ... Config variables go here ...
-  "VITE_CORS_PROXY_UR": "https://whoami-strm-proxy.netlify.app"
-};
